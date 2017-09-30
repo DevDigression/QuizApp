@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<title>U.S. History Quiz</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+<main role="takequiz">
+
+<section id="start-page" role="startpage">
+	<header role="introducequiz">
+		<h1>Test Your Knowledge of United States History!</h1>
+	</header>
+		<button id="start-button">Start Quiz</button>
+	</section>
+	
+<section id="question-page" role="quizquestions" class="hidden">
+	<div id="quiz-content">
+		<form id="question-form">
+			<div id="questionText">
+				<h3></h3>
+			</div>
+			<div id="questionChoices">
+				<label class="answer-choice">
+					<input type="radio" name="answer-choice" required>
+					<span class="answerChoice"></span>
+				</label>
+				<label class="answer-choice">
+					<input type="radio" name="answer-choice" required>
+					<span class="answerChoice"></span>
+				</label>
+				<label class="answer-choice">
+					<input type="radio" name="answer-choice" required>
+					<span class="answerChoice"></span>
+				</label>
+				<label class="answer-choice">
+					<input type="radio" name="answer-choice" required>
+					<span class="answerChoice"></span>
+				</label>
+			</div>
+		</form>
+	<div id="questionFooter">
+		<div id="question-count" role="questionprogress">
+			<span></span>
+		</div>
+		<div id="form-submit" role="submitbutton">
+			<button id="submit">Submit</button>
+			<button id="next">Next</button>
+		</div>
+	</div>
+	</div>
+</section>
+
+<section id="results-page" role=showquizresults class="hidden">
+	<header role="displayresults">
+		<h1 class="resultsDisplay"></h1>
+		<h2 class="resultsDisplay"></h2>
+	</header>
+		<button id="reset-button">Try Again!</button>
+</section>
+
+</main>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
+
+

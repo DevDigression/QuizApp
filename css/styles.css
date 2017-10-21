@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image: url(QuizBackgroundBooks.jpg);
+	background-image: url(../img/QuizBackgroundBooks.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ body {
 	width: 80%;
 	padding: 50px;
 	margin: 80px auto;
-	background-image: url(DeclarationofIndependence.jpg);
+	background-image: url(../img/DeclarationofIndependence.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -44,7 +44,7 @@ body {
 	width: 60%;
 	height: 525px;
 	margin: 3% auto;
-	background-image: url(DeclarationofIndependence.jpg);
+	background-image: url(../img/DeclarationofIndependence.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -145,7 +145,7 @@ h1 {
 	width: 80%;
 	padding: 50px;
 	margin: 80px auto;
-	background-image: url(DeclarationofIndependence.jpg);
+	background-image: url(../img/DeclarationofIndependence.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -182,7 +182,7 @@ h1 {
 	width: 90%;
 	height: 575px;
 	margin: 3% auto;
-	background-image: url(DeclarationofIndependence.jpg);
+	background-image: url(../img/DeclarationofIndependence.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -243,7 +243,7 @@ h1 {
 	width: 90%;
 	padding: 20px;
 	margin: 40px auto;
-	background-image: url(DeclarationofIndependence.jpg);
+	background-image: url(../img/DeclarationofIndependence.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -260,7 +260,7 @@ h1 {
 	width: 90%;
 	padding: 30px;
 	margin: 80px auto;
-	background-image: url(DeclarationofIndependence.jpg);
+	background-image: url(../img/DeclarationofIndependence.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }

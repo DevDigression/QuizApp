@@ -148,7 +148,6 @@ function nextQuestion () {
 
 function generateQuestion () {
 	questionNumber = Math.floor(Math.random() * quizQuestions.questions.length);
-	console.log(quizQuestions.questions[questionNumber].correctAnswer);
 	if (quizQuestions.questions[questionNumber].previouslyChosen) {
 		generateQuestion();
 	}

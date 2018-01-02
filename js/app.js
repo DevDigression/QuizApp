@@ -62,7 +62,7 @@ const quizQuestions = {
 		previouslyChosen: false
 	},
 	{
-		question: `Which event most immediately prompted the US to join World War I?`,
+		question: `Which event most immediately prompted the US to join the Allied Powers in World War I?`,
 		answers: [`the Lusitania was sunk by German submarines`, `the Zimmermann Telegraph was intercepted and decoded`, `Russia withdrew from the conflict following the Bolshevik Revolution`, `Woodrow Wilson won the election of 1916`],
 		correctAnswer: `the Zimmermann Telegraph was intercepted and decoded`,
 		previouslyChosen: false
@@ -74,7 +74,7 @@ const quizQuestions = {
 		previouslyChosen: false
 	},
 	{
-		question: `Which of the following social programs begun during the Great Depression which still exists?`,
+		question: `Which of the following social programs was initiated during the Great Depression and still exists today?`,
 		answers: [`Social Security`, `Civilian Conservation Corp`, `Works Progress Administration`, `Environmental Protection Agency`],
 		correctAnswer: `Social Security`,
 		previouslyChosen: false
@@ -86,7 +86,7 @@ const quizQuestions = {
 		previouslyChosen: false
 	},
 	{
-		question: `Who was the first student to be admitted to the segregated University of Mississippi?`,
+		question: `Who was the first African-American student to be admitted to the segregated University of Mississippi?`,
 		answers: [`Martin Luther King, Jr.`, `Medgar Evers`, `Harriet Beecher Stowe`, `James Meredith`],
 		correctAnswer: `James Meredith`,
 		previouslyChosen: false
@@ -104,7 +104,7 @@ const quizQuestions = {
 		previouslyChosen: false
 	},
 	{
-		question: `Which event brought the US closest to nuclear war?`,
+		question: `Which of the following events brought the US closest to nuclear war?`,
 		answers: [`the Korean War`, `the Cuban Missile Crisis`, `the invasion of Iraq`, `the Soviet Sputnik mission`],
 		correctAnswer: `the Cuban Missile Crisis`,
 		previouslyChosen: false
